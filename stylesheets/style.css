@@ -1,3 +1,49 @@
 body {
   font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
 }
+
+label {
+  float: left;
+}
+
+input {
+  float: right;
+}
+
+p {
+  clear: both;
+}
+
+#source {
+  float: left;
+  width: 15em;
+}
+
+#harmonics {
+  float: right;
+  width: 35em;
+}
+
+span {
+  text-align: right;
+}
+
+span.fraction {
+  float: left;
+  width: 5em;
+}
+
+span.freq {
+  float: left;
+  width: 10em;
+}
+
+span.time {
+  float: left;
+  width: 10em;
+}
+
+div.harm_row {
+  display: block;
+  clear: both;
+}
